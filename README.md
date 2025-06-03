@@ -1,26 +1,34 @@
-# Klok
-Klok Autochat
-1. Clone Repository
-   
-`https://github.com/0xSeijuro/Klok/edit/main/README.md`
+# klok-bot
 
-2. Go To Bot Directory
-   
-``cd klok``
+### 1. Clone Repository
 
+```bash
+git clone https://github.com/0xSeijuro/klok.git
+```
 
-3. Install
-   
-``npm install``
+### 2. Go To Bot Directory
+```
+cd klok
+```
 
-4. Input private key
+### 3. Install
+```
+npm install axios https-proxy-agent socks-proxy-agent uuid
+```
 
-``nano privateKeys.txt``
+### 4. set up private key
+```
+nano privateKeys.txt
+```
 
-5. Input Proxy (Optional)
+### 5. proxy
 
-``nano proxy.txt``
+```bash
+nano proxy.txt
+```
 
-6. Run
+### 6. run
 
-``node main.js``
+```bash
+node main.js
+```
