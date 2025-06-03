@@ -13,21 +13,26 @@ cd klok
 
 ### 3. Install
 ```
-npm install axios https-proxy-agent socks-proxy-agent uuid
+npm install
 ```
 
-### 4. set up private key
+### 4. edit .env
+```
+nano .env
+```
+
+### 5. set up private key
 ```
 nano privateKeys.txt
 ```
 
-### 5. proxy
+### 6. proxy
 
 ```bash
 nano proxy.txt
 ```
 
-### 6. run
+### 7. run
 
 ```bash
 node main.js
